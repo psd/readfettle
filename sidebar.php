@@ -1,10 +1,4 @@
-<div id="sidebar">
-<ul>
-	<li id="search">
-		<h2><label for="s">Search</label></h2>
-		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-	</li>
-
+<div id="elsewhere">
 <?php 
 
 function hell_walk_bookmarks($bookmarks, $args = '' ) {
@@ -136,6 +130,4 @@ function hell_list_bookmarks($args = '') {
 }
 hell_list_bookmarks('title_li=&category_before=&category_after=&show_feed=1');
 ?>
-</li>
-</ul>
 </div>

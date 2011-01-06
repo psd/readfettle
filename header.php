@@ -13,9 +13,9 @@
 
 -->
 <head profile="http://gmpg.org/xfn/11">
-	<title><?php bloginfo('name'); ?> <?php wp_title(' :: '); ?></title>
+	<title>Whatfettle - Paul Downey (psd)</title>
 	<meta charset="<?php bloginfo('charset'); ?>" />
-	<meta name="description" content="The infrequent journal of Paul Downey, a Web activist and doodler living in Berkhamsted, England." />
+	<meta name="description" content="The all too infrequent journal of Paul Downey, a Web activist and doodler living in Berkhamsted, England." />
 	<meta name="author" content="Paul Downey" />
 	<meta name="viewport" content="width=device-width; initial-scale=1" />
 	<link rel="openid.server" href="http://www.myopenid.com/server"/>
