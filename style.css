@@ -80,11 +80,16 @@ a.feedlink {
 	font-size: 15px;
 }
 
-textarea {
-	width: 100%;
+#comments textarea,
+#comments input {
+	width: 80%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+#comments input[type="submit"] {
+	width: 6em;
 }
 
 @media screen and (max-width: 800px) {
@@ -95,6 +100,6 @@ textarea {
 		float: none;
 		width: auto;
 		margin: 0;
-		padding: 1em;
+		padding: 0 0.6em;
 	}
 }
