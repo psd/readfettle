@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<h2><?php the_title(); ?></h2>
+	<h2><a href="/">Whatfettle</a> &#8275; <a href="<?php the_permalink()  ?>"><?php the_title(); ?></a></h2>
 	<div class="post">
 	<?php the_content('<span class="more-link">Continue Reading &raquo;</span>'); ?>
 	</div>
