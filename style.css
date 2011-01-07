@@ -43,6 +43,13 @@ a:hover {
 	margin-top: 1em;
 	border-top: 1px solid black;
 	padding-top: 0;
+	color: #888;
+}
+
+.dictionary {
+	border-top: 1px solid black;
+	margin: 1em 0;
+	padding: 1em 0;
 }
 
 h2 {
@@ -86,13 +93,13 @@ a.feedlink {
 	font-size: 15px;
 }
 
-#comments {
-	border-top: 1px dotted black;
-}
-
 #comments .count {
 	display: block;
 	float: right;
+}
+
+#comments {
+	padding-bottom: 1em;
 }
 
 #comments textarea,
@@ -107,15 +114,20 @@ a.feedlink {
 	width: 6em;
 }
 
+.required {
+	color: red;
+}
 
 @media screen and (max-width: 800px) {
 	body,
 	#header,
 	#content,
+	#comments,
+	.dictionary,
 	#footer {
 		float: none;
 		width: auto;
 		margin: 0;
-		padding: 0 0.6em;
+		padding: 0 0.8em;
 	}
 }

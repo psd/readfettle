@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div id="header">
-		<h1><a href="#footer">Whatfettle</a></h1>
+		<h1><a href="#fettle">Whatfettle</a></h1>
 		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 	</div>
 	<div id="content">
@@ -18,11 +18,9 @@
 		</ul>
 	</div>
 <?php get_sidebar(); ?>
-	<div id="footer">
 	<dl class="dictionary">
 		<dt id="fettle">fettle |ˈfetl|</dt>
 		<dd>&ndash; noun: state; condition. <i>what <b>fettle</b>? In fine <b>fettle</b>!</i></dd>
 		<dd>&ndash; verb: to repair: <i>I'll <b>fettle</b> it.</i></dd>
 	</dl>
-</div>
 <?php get_footer(); ?>
