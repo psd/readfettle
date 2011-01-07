@@ -3,7 +3,7 @@
 	<div id="content" class="widecolumn">
 		<div id="post-search" class="post single-post">
 			<p class="post-date-single">{ Query: &#8220;<?php echo wp_specialchars($s); ?>&#8221; }</p>
-			<h2 class="post-title-single">Search Results</h2>
+			<h2 class="post-title-single"><a href="/">Whatfettle</a> Search Results</h2>
 <?php if (have_posts()) : ?>
 			<div class="post-entry">
 				<p>Search complete for &#8220;<strong><?php echo wp_specialchars($s); ?></strong>&#8221;. Results are below.</p>
@@ -19,10 +19,6 @@
 <?php endwhile; ?>
 				</ol>
 			</div>
-		</div>
-		<div class="navigation" style="margin-top:3em;">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older posts') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer posts &raquo;') ?></div>
 		</div>
 <?php else : ?>
 			<div class="post-entry">
