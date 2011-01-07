@@ -9,7 +9,8 @@
 		<ul id="posts">
 	<?php while (have_posts()) : the_post(); ?>
 			<li><a href="<?php the_permalink() ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			<em><?php the_time('d-M-y') ?> {<?php comments_popup_link('0', '1', '%'); ?></em>}
+			<em><?php the_time('d-M-y') ?> 
+			<?php if ( get_comments_number() > 0 ) : ?>{<?php comments_popup_link('0', '1', '%'); ?></em>}<?php endif; ?>
 			</li>
 	<?php endwhile; ?>
 		</ul>
