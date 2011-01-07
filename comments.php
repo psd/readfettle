@@ -16,8 +16,7 @@
 
 <?php if ($comments) : ?>
 
-	<h3 id="comment-count"><?php comments_number('{ 0 }', '{ 1 }', '{ % }' );?></h3>
-	<h4 id="comment-header">Comments</h4>
+	<h3>Comments <span class="count"><?php comments_number('{ 0 }', '{ 1 }', '{ % }' );?></span></h3>
 
 	<ol class="commentlist">
 		<?php foreach ($comments as $comment) : ?>
