@@ -77,7 +77,7 @@ function hell_walk_bookmarks($bookmarks, $args = '' ) {
 
 		if ($show_feed) {
 			if ($bookmark->link_rss){
-				$output .= $between .  "<a class='feedlink' href='" .  sanitize_bookmark_field('link_feed', $bookmark->link_rss, $bookmark->link_id, 'display') . "'>feed</a>";
+				$output .= $between .  "<a class='feedlink' href='" .  sanitize_bookmark_field('link_feed', $bookmark->link_rss, $bookmark->link_id, 'display') . "'><span>feed</span></a>";
 			}
 		}
 

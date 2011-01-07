@@ -5,7 +5,7 @@ DESCRIPTION: Minimalist readable, Microformat theme for Wordpres
 VERSION: 1.0.9
 AUTHOR: Paul Downey
 AUTHOR URI: http://blog.whatfettle.com
-TAGS: simple, two column, gravatar support, right sidebar, fluid, white
+TAGS: simple, singe column, gravatar support, fluid, white
 
 This work is released under a WTFYL license: http://sam.zoy.org/wtfpl/
 */
@@ -88,10 +88,23 @@ ul {
 	display: inline;
 }
 
-a.feedlink {
-	background: url('http://whatfettle.com/psd/feed.png') top left no-repeat;
-	color: transparent;
-	font-size: 15px;
+.feedlink {
+	display: inline-block;
+	display: -moz-inline-stack;
+	background: url('http://whatfettle.com/psd/feed.png') no-repeat;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: text-top;
+	zoom: 1;
+	width: 22px;
+}
+
+.feedlink span {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	line-height: 18px;
+	cursor: pointer;
 }
 
 #comments .count {
