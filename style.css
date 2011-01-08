@@ -125,8 +125,7 @@ ul {
 }
 
 #comments ol li {
-	padding: 1em 0;
-	margin-bottom: 0.5em;
+	min-height: 2em;
 }
 
 #commentform textarea,
