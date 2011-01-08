@@ -12,7 +12,7 @@
         \/_/
 
 -->
-<head profile="http://gmpg.org/xfn/11">
+<head>
 	<title>Whatfettle - Paul Downey (psd)</title>
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="description" content="The all too infrequent journal of Paul Downey, a Web activist and doodler living in Berkhamsted, England." />
