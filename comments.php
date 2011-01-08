@@ -6,9 +6,8 @@
 		<li id="comment-<?php comment_ID() ?>" class="<?php echo $oddcomment; ?>">
 			<p class="comment-metadata">
 				<img src="<?php gravatar(); ?>" alt="Gravatar" class="gravatar"/>
-				<em><?php comment_author_link() ?></em> 
-				| <?php comment_date('d-M-y') ?> at <?php comment_time('g:i a') ?> 
-				| <a href="#comment-<?php comment_ID() ?>" title="Permalink to this comment" rel="permalink">Permalink</a>
+				<em><?php comment_author_link() ?></em>
+				| <a href="#comment-<?php comment_ID() ?>" title="Permalink to this comment" rel="permalink"><?php comment_date('d-M-y') ?> at <?php comment_time('g:i a') ?></a>
 				<?php edit_comment_link('Edit', '| ', ''); ?></p>
 			<?php if ($comment->comment_approved == '0') : ?><em>Your comment is awaiting moderation.</em><?php endif; ?>
 			<?php comment_text() ?>

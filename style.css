@@ -31,10 +31,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-a {
-	word-wrap: break-word;
-}
-
 #header {
 	width: 100%;
 }
@@ -48,6 +44,10 @@ a {
 	border-top: 1px solid black;
 	padding-top: 0;
 	color: #888;
+}
+
+#s {
+	width: 50%;
 }
 
 .dictionary {
@@ -120,6 +120,10 @@ ul {
 	padding-bottom: 1em;
 }
 
+#comments a {
+	word-wrap: break-word;
+}
+
 #comments textarea,
 #comments input {
 	width: 80%;
@@ -130,6 +134,12 @@ ul {
 
 #comments input[type="submit"] {
 	width: 6em;
+}
+
+#comments img.gravatar {
+	float:right;
+	position: relative; top: -1em; 
+	margin-left: 1em;
 }
 
 .required {
