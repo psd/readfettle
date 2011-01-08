@@ -74,12 +74,17 @@ h3 {
 }
 
 .post img,
-.post video {
+.post video,
+.post iframe {
 	display: block;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	border: none;
+}
+
+.post iframe {
+	height: 100%;
 }
 
 ul {
