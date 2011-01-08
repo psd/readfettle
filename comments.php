@@ -29,11 +29,11 @@
 <?php else : ?>
 			<p>Your email is <em>never</em> published nor shared. <?php if ($req) echo "Required fields are marked <span style='color:red;background:#fff;'>*</span>"; ?></p>
 			<div><label for="author">Name</label></div>
-			<div><input id="author" name="author" type="text" value="<?php echo $comment_author; ?>" tabindex="3" /> <span class="required">*</span></div>
+			<div><input id="author" name="author" type="text" value="<?php echo $comment_author; ?>" tabindex="3" required> <span class="required">*</span></div>
 			<div><label for="email">Email</label></div>
-			<div><input id="email" name="email" type="text" value="<?php echo $comment_author_email; ?>" tabindex="4" />  <span class="required">*</span></div>
+			<div><input id="email" name="email" type="email" value="<?php echo $comment_author_email; ?>" tabindex="4" required>  <span class="required">*</span></div>
 			<div><label for="url">Website</label></div>
-			<div><input id="url" name="url" type="text" value="<?php echo $comment_author_url; ?>" tabindex="5" /></div>
+			<div><input id="url" name="url" type="url" value="<?php echo $comment_author_url; ?>" tabindex="5"></div>
 <?php endif; ?>
 			<div><label for="comment">Message</label></div>
 			<div><textarea id="comment" name="comment" tabindex="6" cols="45" rows="8"></textarea></div>

@@ -124,15 +124,15 @@ ul {
 	word-wrap: break-word;
 }
 
-#comments textarea,
-#comments input {
+#commentform textarea,
+#commentform input {
 	width: 80%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-#comments input[type="submit"] {
+#commentform input[type="submit"] {
 	width: 6em;
 }
 
