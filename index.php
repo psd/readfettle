@@ -4,7 +4,7 @@
 		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 	</div>
 	<div id="content">
-		<p class="vcard">An all too infrequent <a href="http://blog.whatfettle.com" class="url">journal</a> by <a href="/about/" class="fn" rel="me">Paul Downey</a>, a <span class="title">hacker</span> living in <a href="http://en.wikipedia.org/wiki/Berkhamsted" class="adr"><span class="locality">Berkhamsted</span>, <span class="country-name">England</span></a>, published with an <a href="http://blog.whatfettle.com/feed/" title="Paul Downey Atom (XML) Feed" rel="alternate" type="application/atom+xml">Atom Feed</a> and under a <a id="license" rel="license" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons License">Creative Commons License</a>.</p>
+		<p class="vcard">An all too infrequent <a href="http://blog.whatfettle.com" class="url">journal</a> by <a href="/about/" class="fn" rel="me">Paul Downey</a> (<a href="#elsewhere" class="nickname">psd</a>), a <span class="title">hacker</span> living in <a href="http://en.wikipedia.org/wiki/Berkhamsted" class="adr"><span class="locality">Berkhamsted</span>, <span class="country-name">England</span></a>, published with an <a href="http://blog.whatfettle.com/feed/" title="Paul Downey Atom (XML) Feed" rel="alternate" type="application/atom+xml">Atom Feed</a> and under a <a id="license" rel="license" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons License">Creative Commons License</a>.</p>
 		<h2>Posts</h2>
 		<ul id="posts">
 	<?php while (have_posts()) : the_post(); ?>
